@@ -3,6 +3,9 @@ const app = express()
 const port = process.env.PORT || 8080
 
 const { publicacoes } = require('./models/articles')
+const { catgames } = require('./models/games')
+const { catweb } = require('./models/web')
+
 
 app.use(express.json())
 app.use(express.urlencoded({
@@ -23,6 +26,15 @@ app.get('/postagem/:index', (req,res) =>{
     return res.json(publicacoes[index])
 })
 
+//LISTAR CATEGORIA GAMES
+app.get('/categoria/games', (req,res) =>{
+    res.json(catgames)
+})
+
+//LISTAR CATEGORIA WEB
+app.get('/categoria/web', (req,res) =>{
+    res.json(catweb)
+})
 
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
