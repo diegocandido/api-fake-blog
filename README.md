@@ -26,6 +26,15 @@ https://api-fake-blog.herokuapp.com/postagens/
 https://api-fake-blog.herokuapp.com/postagem/1
 ```
 
+## Para listar categoria:
+
+```
+https://api-fake-blog.herokuapp.com/categoria/web
+```
+```
+https://api-fake-blog.herokuapp.com/categoria/games
+```
+
 ## Clonando o Repositório ##
 Com o Git e o Node.js instalado na sua maquina e a **URL** do projeto em mãos, cria em algum lugar do seu pc uma pasta para criarmos uma copia do repositório, dentro dela abra o **cmd** ou **powershell** e digite os comandos abaixo:
 ```
