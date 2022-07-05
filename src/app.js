@@ -14,10 +14,12 @@ const __dirname = path.dirname(__filename);
 // App
 const _app = express();
 
+const IMG_PATH = path.resolve(__dirname, "..", "public", "images");
+
 // Multer file upload
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, path.resolve(__dirname, "..", "public", "images"));
+    cb(null, IMG_PATH);
   },
   filename: function (req, file, cb) {
     cb(null, Date.now() + path.extname(file.originalname));
@@ -32,7 +34,7 @@ _app.use(express.json());
 _app.use(express.urlencoded({ extended: true }));
 
 // Routes
-_app.use("/img", express.static(__dirname + "/public/images"));
+_app.use("/img", express.static(IMG_PATH));
 
 // LISTAR TODAS AS POSTAGENS
 _app.get("/postagem", articleController.get);
