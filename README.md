@@ -17,7 +17,7 @@ Esse projeto está publicado no Heroku.
 ## Para listar todas as postagens:
 
 ```
-https://api-fake-blog.herokuapp.com/postagens/
+https://api-fake-blog.herokuapp.com/postagem/
 ```
 
 ## Para listar UMA postagem:
@@ -29,10 +29,22 @@ https://api-fake-blog.herokuapp.com/postagem/1
 ## Para listar categoria:
 
 ```
-https://api-fake-blog.herokuapp.com/categoria/web
+https://api-fake-blog.herokuapp.com/postagem/categoria/web
 ```
 ```
-https://api-fake-blog.herokuapp.com/categoria/games
+https://api-fake-blog.herokuapp.com/postagem/categoria/games
+```
+
+## Para criar um post:
+
+```
+POST: https://api-fake-blog.herokuapp.com/postagem
+```
+
+## Para apagar um post:
+
+```
+DELETE: https://api-fake-blog.herokuapp.com/postagem/1
 ```
 
 ## Clonando o Repositório ##
