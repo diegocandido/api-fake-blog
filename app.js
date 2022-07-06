@@ -4,8 +4,7 @@ const cors = require('cors');
 const port = process.env.PORT || 8080
 
 const { publicacoes } = require('./models/articles')
-const { catgames } = require('./models/games')
-const { catweb } = require('./models/web')
+const { catweb } = require('./models/games')
 
 app.use(express.json())
 app.use(express.urlencoded({
@@ -31,11 +30,6 @@ app.get('/postagem/:index', (req,res) =>{
 //LISTAR CATEGORIA GAMES
 app.get('/categoria/games', (req,res) =>{
     res.json(catgames)
-})
-
-//LISTAR CATEGORIA WEB
-app.get('/categoria/web', (req,res) =>{
-    res.json(catweb)
 })
 
 
