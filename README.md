@@ -17,7 +17,7 @@ Esse projeto está publicado no Heroku.
 ## Para listar todas as postagens:
 
 ```
-https://api-fake-blog.herokuapp.com/postagem/
+https://api-fake-blog.herokuapp.com/postagens
 ```
 
 ## Para listar UMA postagem:
