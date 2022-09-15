@@ -14,7 +14,7 @@ O vídeo explicativo de como fazer algo semelhante está no [YouTube](https://ww
 
 Esse projeto está publicado no Heroku.
 
-## Para listar todas as postagens:
+## Para listar TODAS as postagens:
 
 ```
 https://api-fake-blog.herokuapp.com/postagens
@@ -26,13 +26,7 @@ https://api-fake-blog.herokuapp.com/postagens
 https://api-fake-blog.herokuapp.com/postagem/1
 ```
 
-## Para criar um post:
-
-```
-POST: https://api-fake-blog.herokuapp.com/postagem
-```
-
-## Para apagar um post:
+## Para APAGAR (temporário) uma postagem:
 
 ```
 DELETE: https://api-fake-blog.herokuapp.com/postagem/1
