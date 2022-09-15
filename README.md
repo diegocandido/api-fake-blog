@@ -26,15 +26,6 @@ https://api-fake-blog.herokuapp.com/postagens
 https://api-fake-blog.herokuapp.com/postagem/1
 ```
 
-## Para listar categoria:
-
-```
-https://api-fake-blog.herokuapp.com/postagem/categoria/web
-```
-```
-https://api-fake-blog.herokuapp.com/postagem/categoria/games
-```
-
 ## Para criar um post:
 
 ```
