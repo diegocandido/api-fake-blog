@@ -17,13 +17,13 @@ Esse projeto está publicado no Heroku.
 ## Para listar TODAS as postagens:
 
 ```
-https://api-rest-post-diegocandido.herokuapp.com/postagens/
+https://api-fake-blog.onrender.com/postagens/
 ```
 
 ## Para listar UMA postagem:
 
 ```
-https://api-rest-post-diegocandido.herokuapp.com/postagem/1
+https://api-fake-blog.onrender.com/postagem/1
 ```
 
 
