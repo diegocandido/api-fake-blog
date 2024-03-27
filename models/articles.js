@@ -1,6 +1,6 @@
 const publicacoes = [
     {
-        thumbImage: "/img/post-1.jpg",
+        thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
         thumbImageAltText: "Google",
         title:
           "Google Notícias completa 20 anos com redesign e fundo de apoio ao jornalismo independente",
@@ -11,7 +11,7 @@ const publicacoes = [
         postDate: "1/03/2022"
       },
       {
-        thumbImage: "/img/post-2.jpg",
+        thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
         thumbImageAltText: "Apple",
         title: "Vendas do Macbook Pro com chip M2 começam nesta sexta-feira (24)",
         description:
