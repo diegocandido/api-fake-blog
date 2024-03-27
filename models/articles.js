@@ -21,7 +21,7 @@ const publicacoes = [
         postDate: "1/03/2022"
     },
     {
-      thumbImage: "/img/post-3.jpg",
+      thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
       thumbImageAltText: "Carros",
       title: "Citroen Ami Buggy: O carro mais simpático que você já viu até hoje",
       description:
@@ -31,7 +31,7 @@ const publicacoes = [
       postDate: "1/03/2022"
     },
     {
-        thumbImage: "/img/post-4.jpg",
+        thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
         thumbImageAltText: "Games",
         title:
           "SEGA anuncia Hyenas, novo FPS no espaço pós-apocalíptico",
@@ -42,7 +42,7 @@ const publicacoes = [
         postDate: "10/06/2022"
       },
       {
-        thumbImage: "/img/post-5.jpg",
+        thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
         thumbImageAltText: "Metaverso",
         title:
           "Metaverso explode em discussões na internet, mas público ainda tem receios",
@@ -52,7 +52,7 @@ const publicacoes = [
         postDate: "10/06/2022"
       },
       {
-        thumbImage: "/img/post-6.jpg",
+        thumbImage: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/02/221223090506-01-bugatti-chiron-profilee.jpg",
         thumbImageAltText: "Web3",
         title:
           "Como o metaverso e a web3 revolucionarão a vida e os negócios?",
